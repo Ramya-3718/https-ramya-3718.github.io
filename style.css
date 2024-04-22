@@ -1,0 +1,165 @@
+header 
+{
+    background: #004d7a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+nav a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
+nav a:hover 
+{
+    background-color: #0073e6;
+}
+
+body 
+{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+    background: #f4f4f4; 
+}
+
+.container 
+{ 
+    width: 80%; 
+    margin: auto; 
+    overflow: hidden; 
+    padding-bottom: 100px;  
+}
+
+header a 
+{ 
+    color: #fff; 
+    text-decoration: none; 
+    padding: 12px 20px; 
+    display: inline-block; 
+}
+
+header a:hover 
+{ 
+    background-color: #0073e6; 
+}
+
+nav 
+{ 
+    margin-top: 0; 
+}
+
+section 
+{
+    padding: 20px;
+    margin-bottom: 50px;
+    background: white;
+    border-left: 5px solid #004d7a;
+    margin-top: 0;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 6px solid #ccc;
+    margin-bottom: 0px;
+}
+
+section h2 
+{ 
+    color: #004d7a; 
+}
+
+.profile 
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.profile img 
+{
+    height: 189px;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-info 
+{
+    color: #333;
+    margin-top: 10px;
+}
+
+.profile-info span 
+{
+    display: block;
+    margin: 5px 0;
+}
+
+.profile-info .name 
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.profile-info .email
+{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+footer 
+{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Adjust this value to fit your content */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in the height if using padding to set the footer's height */
+}
+
+footer:before 
+{
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc; /* Or any color you prefer */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer a 
+{
+    color: #fff;
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+}
+
+footer p 
+{
+    margin: 5px 0;
+}
+
+.section:last-of-type 
+{
+    border-bottom: none;
+}
+
+.section > .container 
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
